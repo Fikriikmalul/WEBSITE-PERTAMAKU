@@ -1,0 +1,125 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(image/background\ 2.jpg);
+    background-size: cover;
+}
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightskyblue;
+    border-bottom: 5px solid salmon;
+    z-index: 9999;
+}
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-top: 60px;
+    position: relative;
+}
+.twitter {
+    width: 200px;
+    height: 200px;
+    background-image: url(image/twitter.png);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    top: -22px;
+    left: 788px;
+}
+.heading {
+    padding: 20px;
+}
+.heading .judul {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+.heading ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.heading ul li a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+.heading ul li a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+.hero {
+    background-image: url(image/hacker.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 0px -100px;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+.main {
+    padding: 20px;
+    color: #333;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+}
+.main h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.main .penulis {
+    font-size: 12px;
+}
+.main .penulis a {
+    text-decoration: none;
+    color: salmon;
+}
+.main .penulis a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+.main p {
+    margin-bottom: 10px;
+    text-align: justify;
+    font: 14px/28px arial, sans-serif;
+}
+.sidebar {
+    padding: 20px;
+    float: right;
+    width: 320px;
+}
+.sidebar h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.sidebar p {
+    font: 12px/18px arial;
+    text-align: justify;
+}
+.footer {
+    background-color: #333;
+    padding: 5px;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
